@@ -126,13 +126,7 @@ color: orange;
     background-color: white;
     color: black;
 }
-/* .top-products{
-    height: 40rem;
-}
-#top-products-heading{
-    margin: 5rem 0 5rem 0;
-text-align: center;
-} */
+
 #about-fresh-meal-heading{
     margin: 5rem 0 3rem 0;
 text-align: center;
@@ -434,10 +428,7 @@ font-size: 2rem;
         width: 30rem;
         
     }
-    /* .top-products{
-        width: 30rem;
-        height: 40rem;
-    } */
+  
     .contact{
         width: 30rem;
     }
