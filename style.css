@@ -1,0 +1,444 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-header{
+    background-color: black;
+    color: white;
+}
+.icons{
+    text-align: left;
+}
+.links{
+    text-align: right;
+    margin-right: 2rem;
+}
+.icons i{
+    padding: 10px;
+}
+.links i{
+    padding: 10px;
+}
+#bottom-header{
+    background-color: white;
+    color: black;
+    
+}
+#top-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top-part div{
+    margin: 1rem 4rem 1rem 4rem;
+}
+.logo{
+    height: 2rem;
+    width: 5rem;
+}
+#bottom-part{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid white;
+    -webkit-box-shadow:0px 1px 1px #ccc7cc;
+    -moz-box-shadow:0px 1px 1px #ccc7cc;
+    box-shadow:0px 1px 1px #ccc7cc;
+}
+#bottom-part button{
+    background-color: white;
+    padding: 20px 30px;
+   margin: 0;
+    border: 0;
+    border-style: none;
+   
+}
+#bottom-part button:active,
+#bottom-part button:hover{
+background-color: orange;
+color: black;
+}
+#bottom-part> #home{
+    background-color: orange;
+    color: black;
+}
+section{
+    background-image: url("image/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 30rem;
+}
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+#main-img-left{
+    margin-left: 3rem;
+ padding: 3rem;
+ text-align: left;
+ font-size: larger;
+ 
+}
+#main-heading{
+    font-size: 2.3rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 900;
+
+}
+#main-img-right img{
+    height: 20rem;
+    width: 25rem;
+    padding: 2rem;
+    margin-right: 9rem;
+}
+#main-img-left p{
+    inline-size: 35rem;
+    overflow-wrap: break-word;
+}
+#main-img-left button{
+    padding: 1rem;
+    border-radius: 5px;
+    border-style: none;
+    font-size: large;
+}
+#read-more{
+    background-color: orange;
+    color: white;
+}
+#read-more:active,
+#read-more:hover{
+background-color: white;
+color: orange;
+}
+#shop-now{
+    background-color: black;
+    color: white;
+}
+#shop-now:active,
+#shop-now:hover{
+    background-color: white;
+    color: black;
+}
+/* .top-products{
+    height: 40rem;
+}
+#top-products-heading{
+    margin: 5rem 0 5rem 0;
+text-align: center;
+} */
+#about-fresh-meal-heading{
+    margin: 5rem 0 3rem 0;
+text-align: center;
+font-size: 2rem;
+}
+#about-fresh-meal-right{
+    text-align: left;
+    padding: 3rem;
+}
+#fresh-meal-outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about-fresh-meal-img{
+    height: 25rem;
+    width: 35rem;
+    margin-left: 5rem;
+}
+#about-fresh-meal-h3{
+    font-size:1.7rem;
+}
+#about-fresh-meal-p{
+    font-size: 1.2rem;
+}
+#about-fresh-meal-button{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+}
+.our-services{
+    background-color: rgb(212, 219, 221);
+    padding: 2rem;
+}
+#our-services-outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#our-services-card{
+    margin: 3rem;
+    padding: 2rem;
+    height: 13rem;
+    background-color: white;
+    color: black;
+}
+#our-services-heading2{
+    color: orange;
+}
+#our-services-p{
+    font-size: large;
+    margin-top: 1rem;
+}
+#our-services-button1{
+    font-size: large;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+#our-services-button2{
+    font-size: large;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    border-style: none;
+}
+.big-deals{
+    padding: 2rem;
+    background-color: rgb(100, 91, 91);
+}
+#big-deals-outer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#big-deals-inner{
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: orange;
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
+.latest-news{
+    background-color:  rgb(212, 219, 221);
+    padding-top: 3rem;
+}
+#latest-news-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    
+}
+#latest-news-inner{
+    margin: 1rem;
+}
+#latest-news-note{
+    background-color: white;
+    color: black;
+    width:35rem;
+}
+#latest-news-img{
+    height: 30rem;
+    width:35rem;
+}
+#latest-news-p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#posted-by{
+    margin-left: 12rem;
+}
+#latest-news-para{
+    text-align: left;
+    margin: 0 1rem 3rem 1rem;
+    font-size: large;
+    padding-bottom: 2rem;
+}
+#latest-news-button{
+    padding: .8rem;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: black;
+
+}
+#newsletter-img{
+    padding: 2rem;
+    height: 25rem;
+    width: 35rem;
+    margin-left: 5rem;
+}
+#newsletter-news{
+    text-align: left;
+    padding: 2rem;
+}
+.flexContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.inputField {
+    flex: 1;
+    height: 3.5rem;
+}
+#newsletter-button{
+    color: white;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-left: -100px;
+    height: 3rem;
+    text-align: center;
+    margin-top: 4px;
+}
+.contact{
+    padding: 2rem;
+}
+#contact-div{
+    padding: .5rem;
+}
+.links-bottom{
+    background-color: grey;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+}
+#links-div{
+    width: 35rem;
+    margin: 2rem;
+}
+#food-table{
+    height: 4rem;
+    width: 4rem;
+    background-repeat: repeat-x;
+    margin: 5px;
+}
+#links-button{
+    padding: .8rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#links-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Media Queries */
+@media (max-width: 500px){
+
+  
+    .icons{
+        flex-direction: column;
+    }
+    .links{
+     
+        flex-direction: column;
+    }
+    #top-part{
+       
+        flex-direction: column;
+    }
+    .main-img{
+      
+        flex-direction: column;
+    }
+    #main-img-left{
+       margin-left: 0;
+     
+    }
+    #main-img-left p{
+        inline-size: 30rem;
+        overflow-wrap: break-word;
+    }
+    section{
+       
+       height: 53rem;
+    }
+   
+    #main-img-left p{
+        inline-size: 20rem;
+       
+    }
+    #fresh-meal-outer{
+       
+        flex-direction: column;
+    }
+    #our-services-outer{
+       
+        flex-direction: column; 
+    }
+    #big-deals-outer{
+     
+        flex-direction: column;
+    }
+    #latest-news-outer{
+      flex-direction: column;
+        
+    }
+    #latest-news-p{
+        padding: 2rem;
+        width: 30rem;
+    }
+    #latest-news-h2{
+        padding: 2rem;
+    }
+    #latest-news-para{
+        padding: 2rem;
+    }
+    .newsletter{
+      flex-direction: column;
+    
+    }
+    #newsletter-img{
+        margin-left: 0;
+        width: 30rem;
+    }
+    .links-bottom{
+        flex-direction: column;
+    }
+    #links-div{
+      width: auto;
+        padding: 0rem;
+        margin-left: 0;
+    }
+    #latest-news-img{
+        height: 30rem;
+        width:30rem;
+    }
+    #about-fresh-meal-img{
+        margin-left: 0;
+        height: 25rem;
+        width: 30rem;
+        
+    }
+    /* .top-products{
+        width: 30rem;
+        height: 40rem;
+    } */
+    .contact{
+        width: 30rem;
+    }
+}
